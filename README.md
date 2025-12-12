@@ -13,7 +13,7 @@ pip install opencv-python mediapipe numpy
 
 ## Prepare reference gestures
 1. Create/collect one clear image per gesture (hand visible).
-2. Place them in `gestures/` (e.g., `thumbs_up.jpg`, `peace.png`, `fist.jpg`).
+2. Place them in `gestures/` 
 3. The script will extract landmarks from each image at startup; any image without a detectable hand is skipped.
 
 ## Run
@@ -30,4 +30,5 @@ Press `q` to quit.
 ## Tune matching
 - Adjust the `threshold` argument in `match_gesture` (default `0.25`); increase to be more lenient, decrease to be stricter.
 - Ensure reference images are clear and centered for best results.
+
 
